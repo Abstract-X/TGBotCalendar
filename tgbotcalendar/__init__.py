@@ -14,4 +14,4 @@ from .utils.helpers import (serialize_date, deserialize_date, make_offset_previo
                             make_offset_next_month, get_period_dates)
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
