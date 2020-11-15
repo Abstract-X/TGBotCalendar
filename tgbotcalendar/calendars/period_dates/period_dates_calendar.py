@@ -65,8 +65,7 @@ class PeriodDatesCalendar(BaseCalendar):
 
         for index, cell in enumerate(month_cells):
             if (cell is not None) and (cell in excess_cells):
-                month_cells.pop(index)
-                month_cells.insert(index, None)
+                month_cells[index] = None
 
     def _make_confirm_button(self, selected_dates: List[datetimelib.date]):
 
